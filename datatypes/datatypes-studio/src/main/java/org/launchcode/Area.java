@@ -10,7 +10,9 @@ public class Area {
         System.out.println("What is the radius of your circle?");
         double radius = input.nextDouble();
         double area = Circle.getArea(radius);
-        System.out.println("The area of your circle is: " + area);
+        String message = radius < 0 ? "Error: Error: Can't use negative numbers here."
+                : "The area of your circle is: " + area;
+        System.out.println(message);
     }
 
 }
