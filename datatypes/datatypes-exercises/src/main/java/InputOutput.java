@@ -9,11 +9,12 @@ public class InputOutput {
         int length = input.nextInt();
         System.out.println("How about the width: ");
         int width = input.nextInt();
-        System.out.println(String.format("""
-                        Great!  
-                The area of your rectangle is: 
+        // makes using String.format unnecessary
+        System.out.printf("""
+                        Great!
+                The area of your rectangle is:
                     %s.
-                """, length * width));
+                %n""", length * width);
 
     }
 
