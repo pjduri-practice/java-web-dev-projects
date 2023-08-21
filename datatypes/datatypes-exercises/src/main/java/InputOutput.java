@@ -15,6 +15,7 @@ public class InputOutput {
                 The area of your rectangle is:
                     %s.
                 %n""", length * width);
+        input.close();
 
     }
 

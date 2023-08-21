@@ -29,6 +29,7 @@ public class Alice {
                             
                         """, subString, index, length);
         System.out.println(newSentence);
+        input.close();
 
     }
 

@@ -9,6 +9,7 @@ public class Miles {
         System.out.println("And how much gas have you burned?  (Maybe consider an ebike?)");
         double gallons = input.nextDouble();
         System.out.printf("You're getting about %s miles per gallon.", miles / gallons);
+        input.close();
     }
 
 }
